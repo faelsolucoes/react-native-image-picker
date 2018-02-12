@@ -62,12 +62,12 @@ IMPORTANT NOTE: You'll still need to perform step 4 for iOS and steps 2 and 5 fo
     project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
     ```
 
-2. Update the android build tools version to `2.2.+` in `android/build.gradle`:
+2. Update the android build tools version to `2+` in `android/build.gradle`:
     ```gradle
     buildscript {
         ...
         dependencies {
-            classpath 'com.android.tools.build:gradle:2.2.+' // <- USE 2.2.+ version
+            classpath 'com.android.tools.build:gradle:2+' // <- USE 2+ version
         }
         ...
     }
